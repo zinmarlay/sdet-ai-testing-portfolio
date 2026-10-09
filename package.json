@@ -1,0 +1,18 @@
+{
+  "name": "sdet-ai-testing-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "npx tsc --noEmit --strict --ignoreConfig practice/day01/test.ts",
+    "compile": "tsc --ignoreConfig practice/day01/test.ts --target es2020 --module commonjs --outDir dist",
+    "start": "node dist/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
