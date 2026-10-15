@@ -11,3 +11,9 @@ dist/
 .env
 .env.*
 !.env.example
+
+# Playwright generated files
+
+/playwright-report/
+/test-results/
+/example-page.png
